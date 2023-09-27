@@ -4,10 +4,11 @@ import { PasswordCheckerContext } from "./context/PasswordCheckerContext";
 
 function App() {
   const [password, setPassword] = useState<string>("");
+  const [points, setPoints] = useState<number>(0);
 
   const contextValue = useMemo(
-    () => ({ password, setPassword }),
-    [password, setPassword]
+    () => ({ password, setPassword, points, setPoints }),
+    [password, setPassword, points, setPoints]
   );
 
   return (
