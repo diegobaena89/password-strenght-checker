@@ -23,7 +23,7 @@ This GitHub repository hosts a powerful password strength checker built using th
 
 <a id="layout"> **Layout** </a>
 
-N/A
+[![Layout](https://github.com/diegobaena89/password-strenght-checker/blob/main/src/assets/passwordChecker.gif?raw=true "Layout")](https://github.com/diegobaena89/password-strenght-checker/blob/main/src/assets/passwordChecker.gif?raw=true "Layout")
 
 ---
 
