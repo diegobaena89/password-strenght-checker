@@ -10,6 +10,8 @@
 
 This GitHub repository hosts a powerful password strength checker built using the latest web technologies - React and TypeScript, with a sleek and user-friendly interface designed using Chakra UI. With this tool, you can evaluate the strength of your passwords and ensure they meet the highest security standards. It provides real-time feedback and guidance on creating robust and secure passwords, making it an essential tool for anyone concerned about online security. Strengthen your digital defenses today with this open-source password strength checker!
 
+You can also visit the deployed project [here](https://password-strength-checker-opal.vercel.app/ "here")
+
 ---
 
 🚀 <a id="features"> **Features** </a>
