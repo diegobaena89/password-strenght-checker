@@ -6,11 +6,18 @@ export const ProgressTracker = () => {
   const { points } = useContext(PasswordCheckerContext);
 
   function showColorByPoints(points: number) {
-    if (points <= 20) return "red";
-    if (points > 20 && points <= 40) return "orange";
-    if (points > 40 && points <= 60) return "yellow";
-    if (points > 60 && points <= 80) return "green";
-    if (points > 80) return "blue";
+    switch (true) {
+      case points <= 20:
+        return "red";
+      case points <= 40:
+        return "orange";
+      case points <= 60:
+        return "yellow";
+      case points <= 80:
+        return "green";
+      default:
+        return "blue";
+    }
   }
 
   return (

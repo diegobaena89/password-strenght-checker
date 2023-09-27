@@ -22,7 +22,7 @@ export const MainContainer = () => {
       >
         <Card variant={"elevated"}>
           <CardHeader>
-            <Heading size="lg">Password Strenght Checker</Heading>
+            <Heading size="lg">Password Strength Checker</Heading>
           </CardHeader>
           <CardBody>
             <Stack divider={<StackDivider />} spacing="4">
