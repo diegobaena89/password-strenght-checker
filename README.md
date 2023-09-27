@@ -1,47 +1,39 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white)
 
-## Available Scripts
+[Project](#project) | [Features](#features) | [Layout](#layout) | [Launch](#launch)
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+📝 <a id="project"> **Project** </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This GitHub repository hosts a powerful password strength checker built using the latest web technologies - React and TypeScript, with a sleek and user-friendly interface designed using Chakra UI. With this tool, you can evaluate the strength of your passwords and ensure they meet the highest security standards. It provides real-time feedback and guidance on creating robust and secure passwords, making it an essential tool for anyone concerned about online security. Strengthen your digital defenses today with this open-source password strength checker!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+🚀 <a id="features"> **Features** </a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] React and TypeScript for a modern, type-safe codebase
+- [x] Chakra UI for a visually appealing and responsive user interface
+- [x] Real-time password strength evaluation
+- [x] Helpful guidance to create strong and secure passwords
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a id="layout"> **Layout** </a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+N/A
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+📂 <a id="launch"> **How to start this project** </a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+       # Clone this repo
+    ❯ git clone https://github.com/diegobaena89/password-strenght-checker.git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    # Enter on its directory
+    ❯ cd password-strenght-checker
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# password-strenght-checker
+    # Launch the Application
+    ❯ yarn dev
